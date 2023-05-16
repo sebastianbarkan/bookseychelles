@@ -58,6 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 3rem;
+    padding: 0rem 2rem;
     --tw-text-opacity: 1;
     color: rgb(0 130 196 / var(--tw-text-opacity));
 }
@@ -68,6 +69,7 @@ body {
     font-size: 3rem;
     text-align: center;
     line-height: 1.5;
+    padding: 0rem 2rem;
 }
 
 .bottom-main {
@@ -76,6 +78,7 @@ body {
     font-size: 3rem;
     text-align: center;
     line-height: 1.5;
+    max-width: 50ch;
 }
 
 .click-text {
@@ -97,4 +100,40 @@ body {
     --tw-text-opacity: 1;
     color: rgb(0 170 231 / var(--tw-text-opacity));
     font-weight: 900;
+}
+
+@media screen and (max-width: 1150px) {
+    .top-main {
+        font-size: 2rem;
+    }
+
+    .bottom-main {
+        font-size: 2rem;
+    }
+
+    .text-logo {
+        height: 3rem;
+    }
+
+    .click-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .top-main {
+        font-size: 1.5rem;
+    }
+
+    .bottom-main {
+        font-size: 1.5rem;
+    }
+
+    .text-logo {
+        height: 2rem;
+    }
+
+    .click-text {
+        font-size: 1rem;
+    }
 }

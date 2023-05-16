@@ -57,6 +57,7 @@ body {
     font-family: "Ubuntu";
     font-weight: 400;
     line-height: 2rem;
+    text-align: center;
     font-size: 1.5rem;
 }
 
@@ -215,4 +216,16 @@ body {
     --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
         var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        padding: 1rem 3rem;
+    }
+
+    .btn-wrap {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
 }
