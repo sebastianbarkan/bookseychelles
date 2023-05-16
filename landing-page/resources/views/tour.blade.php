@@ -15,15 +15,19 @@
     <img src="/images/text-logo.png" class="text-logo" alt="Book Seychelles Logo">
         <section class="slideshow">
             <div class="card" id="1" onclick="handleclick('1', this)">
+                <img src="/images/seychellesportrait.jpg" class="card-img" alt="Seychelles Portrait">
                 <h1 class="card-text">Prepare to embark on a journey that's as extraordinary as the destination itself.</h1>
             </div>
-            <div class="card-hide" id="2" onclick="handleclick('2',this)">
+            <div class="card-hide" id="2" onclick="handleclick('2', this)">
+                <img src="/images/seychellesportrait.jpg" class="card-img" alt="Seychelles Portrait">
                 <h1 class="card-text">Choose your ideal spot & plan every step of your trip effortlessly in just a few clicks.</h1>
             </div>
             <div class="card-hide" id="3" onclick="handleclick('3', this)">
+                <img src="/images/seychellesportrait.jpg" class="card-img" alt="Seychelles Portrait">
                 <h1 class="card-text">The power of choice: from exclusive resorts to lesser-known gems. We've got it all.</h1>
             </div>
             <div class="card-hide" id="4" onclick="handleclick('4', this)">
+               <img src="/images/seychellesportrait.jpg" class="card-img" alt="Seychelles Portrait">
                 <h1 class="card-text">Just tell Book-Seychelles what you're looking for. "Where is the nearest secluded beach?".</h1>
             </div>
           
