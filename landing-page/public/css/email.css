@@ -157,6 +157,10 @@ body {
     padding: 1px;
 }
 
+.btn-secondary-wrap:hover {
+    background: #00aae7;
+}
+
 .btn-primary {
     display: inline-flex;
     width: 144px;
